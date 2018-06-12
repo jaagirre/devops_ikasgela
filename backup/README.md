@@ -14,6 +14,13 @@ git clone https://github.com/jaagibas/devops-ikasgela.git
 
 +Errepositorioaren README.md fitxategia modifikatu eta github errepositorioa eguneratu.
     +Markdown editore moduan Visual Code erabili (Extentzioa Auto Markdown)
+    +Ikasgelako oinarrikzo karpeta eta fitxategi batzuk sortu
+    +Egindako lehen aldaketak github-ra eraman
+    
+    git pull (konprotabu up to date gauzen)
+    git add . 
+    git commit -am "Ikasgelaren oinarrikzo egitura/eskeletoa sortua"
+    git push
 
 ```
 
