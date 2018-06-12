@@ -25,7 +25,7 @@ git clone https://github.com/jaagibas/devops-ikasgela.git
     +Visual code instalatu git extentzioa
 
     +github erabiltzailea ezartzen
-    git commit -am "Ikasgelaren oinarrikzo egitura/eskeletoa sortua"
+    git config user.email "jaagibas@gmail.com"
     git config user.email
 
 
