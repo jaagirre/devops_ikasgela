@@ -35,7 +35,18 @@ git clone https://github.com/jaagibas/devops-ikasgela.git
 
 ###Ikasgelarekin elkartrukea edukitzeko pausuak
 ```
-+Ikasgelaren Fork bat egin
++Ikasgelaren Fork bat egin github webgunetik zuzenean 
+[Fork tutoriala 1] (http://aprendegit.com/fork-de-repositorios-para-que-sirve/)
+[Fork tutoriala 2](http://aprendegit.com/mantener-tu-fork-al-dia/)
+[Fork Tutorial 3](http://aprendegit.com/que-es-un-pull-request/)
++Ondoren Fork-a lokalki klonatu
+git clone https://github.com/jaagirre/devops_ikasgela.git
+(jaagirre ikasle erabiltzailea da)
+
++Ondoren upstream sortu proiektu errealera PULL-REQUEST-ak egiteko
+git remote add upstream https://github.com/jaagibas/devops_ikasgela.git
+
++Azkenik ondo eguneratu gure fork lokala upstream erabiliz
 
 +Ikasgelaren FORK-ean zure aldaketak egiteko branch bat sortu
 
