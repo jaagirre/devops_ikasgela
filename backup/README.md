@@ -84,5 +84,12 @@ git checkout master
 git merge origin master
 (Git es muy listo;-)
 
++Ikasleak ariketak egiteko POLITIKA 
+Fork masterra upstream-ra eguneratu. Behineguneratutra checkout etaariketa egiteko branch bat sortu
+$git branch Ariketa_X_Karle
+Gero aldaketa egin eta origin masterrera eraman , hortarko lehen etab izi berdina lokalean egin 
+Gero behin hori eginda PULL_REQUEST
+Eta azkenik lokalean Branch hori kendu dezakegu
+
 ```
 ### Bigarren praktika prestatzeko pausuak
