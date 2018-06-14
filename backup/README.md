@@ -74,5 +74,11 @@ Esto lo realizamos mediante la web de git
 @jaagirre realzia la peticion. Github analzia si hay conflicto
 @jaagibas recibe el pull requets , con la información necesaria
 @jaagibas acepta el pull request
+
++Orain iraksleak nola jarritzen du lanean . Hau da zelan egiten du lan origin masterra prain lokalari aurreratu zaionean
+git push egiten dueneandana egiten du , posible bada
+baina bide geokia hurrengoa da.
+git fetch master (actualizau eitten branch)
+
 ```
 ### Bigarren praktika prestatzeko pausuak
