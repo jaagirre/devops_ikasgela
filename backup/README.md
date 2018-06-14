@@ -56,7 +56,8 @@ git push origin master  (Orain @jaagirre fork-a eguneratuta dago)
 +Ikasgelaren FORK-ean zure aldaketak egiteko branch bat sortu
 git checkout master
 git branch Ariketak_jaagirre
-git push --all -u
+git push --all -u (branch danak jarraitu)
+git push -u origin Ariketak_jaagirre (branch bakar hau jarraitu)
 
 +Ikasgela errealean "ariketak" deritzon karpetako ariketa0.md fitxategian zure github erabiltzailea, zure izen abizena , ikasgaiko ariketak  gordetzeko sortu duzuen github errepositorioaren URL-a eta errepositorioaren bertsioa idatzi. Horretarako PULL-REQUEST prosezua erabili.
 
@@ -79,6 +80,9 @@ Esto lo realizamos mediante la web de git
 git push egiten dueneandana egiten du , posible bada
 baina bide geokia hurrengoa da.
 git fetch master (actualizau eitten branch)
+git checkout master
+git merge origin master
+(Git es muy listo;-)
 
 ```
 ### Bigarren praktika prestatzeko pausuak
